@@ -14,16 +14,13 @@ function sayHello() {
   console.log("Hello " + myName + "!");
 }
 
-sayHello();
-
-console.log(myName);
-
-const myGlobalVariable = 'favouritecolour'
+let myGlobalVariable = "pink";
+console.log(myGlobalVariable);
 
 function printColour() {
-
-  let printColour = "green";
-  favouritecolour = "pink";
-  console.log(myfavouritecolour, myGlobalVariable)
+  const myGlobalVariable = "pink"
 }
 
+function printColour() {
+  console.log("pink " + myGlobalVariable + "!");
+}
