@@ -1,7 +1,7 @@
 console.log(`We are checking..`)
 
 const myArray = ['Sam', 'Connor', 'Manny', 'Joe']
-const myCompany = ['Tech Educators', 2021, true, {staff: 'foo'}]
+const myCompany = ['Tech Educators', 2021, true, {staff: 'foo'}] // I can access elements in array through bracket notation
 
 myArray [1]
 myArray [0]
@@ -36,3 +36,36 @@ console.log(colors)
 const myDeletedElements = colors.splice(1, 3, 'Teal') // takes 3 arguments - where to start, how many elements to remove, what to add and returns deleted elements in array
 console.log(colors)
 console.log(myDeletedElements)
+
+const myInfo = ('Sarah', 'Dog', ('Tech Educators', 'Student')] // Arrays - we give it the number of that element in the list
+
+console.log(myInfo[2][0]) // Square brackets for arrays
+
+const info = {           // Objects - the dot is only for objects
+  myDog: 'Honey',
+  myJob: 'Student'
+}
+
+info.myDog
+
+const myFriends = [    // Working with objects in arrays
+   {
+    name: 'Sarah',
+    age: 25
+   },
+   {
+    name: 'Charlie',
+    age: 26
+   },
+   {
+    name: 'Bethany',
+    age: 27
+ }
+]
+
+console.log(myFriends[2].name) // Arrays are 'ordered' // Objects must be given the property name
+
+const myArray3 = [function(name) {console.log(`Hello, ${name}`)}] // Functions in Javascript are first-class // You can use functions like any other value
+
+myArray3[0]('Sarah')
+
