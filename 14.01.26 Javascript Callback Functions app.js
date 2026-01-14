@@ -1,6 +1,6 @@
 console.log('Test, test')
 
-fnction runsOtherFunctions(a) {
+function runsOtherFunctions(a) {
   console.log(a)
   greet()
 }
