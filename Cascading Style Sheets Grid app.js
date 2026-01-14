@@ -9,6 +9,16 @@ body {
   width: 100vh;
   font-family: monospace;
   color: black;
-  background-color: #00FFFF;
+  background-color: #FF69B4;
   text-decoration: none;
 }
+
+a {
+  text-decoration: none;
+  color: green;
+}
+
+a:visited {
+  color: blue;
+}
+
