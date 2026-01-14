@@ -7,10 +7,22 @@ body {
   background-color: blue;
 }
 
+// ANYTHING BELOW 600px IT SHOULD APPLY THIS
+
 @media (max-width: 600px) {
   body {
     background-color: pink;  
  }
+}
+
+// WRITE YOUR CSS FOR MOBILE AS THE DEFAULT
+
+// MEDIA QUERY TO SEE IF THE SCREEN IS BIG
+
+@media (min-width: 600px) and (max-width: 900px) {
+  body {
+    background-color: yellow;
+  }
 }
 
 
