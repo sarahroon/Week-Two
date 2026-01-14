@@ -3,8 +3,13 @@
   margin: 0;
 }
 
+html {
+  font-size: 2px;
+}
+
 body {
   background-color: blue;
+  font-size: 10rem;
 }
 
 // ANYTHING BELOW 600px IT SHOULD APPLY THIS
@@ -18,11 +23,28 @@ body {
 // WRITE YOUR CSS FOR MOBILE AS THE DEFAULT
 
 // MEDIA QUERY TO SEE IF THE SCREEN IS BIG
+// MAXIMUM SCREEN SIZE CAN ONLY BE 600px
+// SCREEN SIZE MUST BE BELOW 900px
 
 @media (min-width: 600px) and (max-width: 900px) {
   body {
     background-color: yellow;
   }
+
+p {
+  color: purple;
+ }
 }
+
+// em IS THE STANDARD UNIT OF MEASUREMENT FOR HOW BIG A UNIT OF FONT IS // 1 em = 16px
+
+// rem IS relative em
+
+// BY DEFAULT 1rem = 16px
+
+
+
+
+
 
 
