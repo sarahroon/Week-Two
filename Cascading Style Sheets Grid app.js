@@ -9,8 +9,15 @@ body {
   width: 100vh;
   font-family: monospace;
   color: black;
-  background-color: #FF69B4;
-  text-decoration: none;
+  background-color: yellow;
+
+display: grid;
+
+grid-template-columns: 1fr 2fr 1fr;  // SET AMOUNT OF COLUMNS // 1fr 1fr 1fr IS THE FRACTION UNIT
+}
+
+a: visited {
+  color: blue;
 }
 
 a {
@@ -18,7 +25,4 @@ a {
   color: green;
 }
 
-a:visited {
-  color: blue;
-}
 
