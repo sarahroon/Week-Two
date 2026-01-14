@@ -1,19 +1,31 @@
+// FIRST EXAMPLE OF A CALLBACK FUNCTION
+
 console.log('Test, test')
 
 function runsOtherFunctions(a) {
   console.log(a)
-  greet()
+  a()
 }
 
-runsOtherFunctions(greet)
+runsOtherFunctions (byeBye) // runs byeBye function - a becomes byeBye function
 
-runsOtherFunctions('Sarah')
+runsOtherFunctions(greet) // runs greet function - a becomes greet function
 
-runsOtherFunctions(1)
+// SECOND EXAMPLE OF A CALLBACK FUNCTION
 
-function greet() {
-  console.log(`Hello`)
+function notifyUser() {
+  console.log(`notifyUser function called`)
 }
 
-function byeBye() {
-  console.log(`See ya!')
+function myCoolFunction(anythingatall) {
+  console.log(`Running my awesome function`)
+  anythingatall()
+}
+
+myCoolFunction(notifyUser)
+
+
+
+
+
+
