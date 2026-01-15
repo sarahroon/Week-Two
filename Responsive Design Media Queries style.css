@@ -2,3 +2,24 @@
  margin-inline: auto;
  max-width: fit-content;
 }
+
+.container {
+ background: #F0FFFF;
+ display: flex;
+ flex-wrap: wrap;
+ width: 10px;
+ padding: 10px;
+}
+
+.box {
+ border: 2px solid gold;
+ border-radius: 1rem;
+}
+
+img {
+ display: block;
+ max-width: 100%;
+}
+
+
+
