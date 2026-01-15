@@ -19,3 +19,9 @@ video.addEventListener("pause", function (event) {
 video.addEventListener("time", function (event) {
   console.log("Time event:", event);
 });
+
+const audio = document.querySelector("audio");
+const button = document.querySelector("button");
+button.addEventListener("click", function (event) {
+  audio.play();
+});
