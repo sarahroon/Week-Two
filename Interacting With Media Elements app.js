@@ -37,3 +37,9 @@ const button = document.querySelector("button";
 button.addEventListener("click", function (event) {
   audio.stop();
 });
+
+const audio = document.querySelector("audio");
+const slider = document.querySelector("input");
+slider.addEventListener("change", function (event) {
+  audio.volume = event.target.value;
+});
