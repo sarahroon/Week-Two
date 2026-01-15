@@ -25,3 +25,15 @@ const button = document.querySelector("button");
 button.addEventListener("click", function (event) {
   audio.play();
 });
+
+const audio = document.querySelector("audio");
+const button = document.querySelector("button");
+button.addEventListener("click", function (event) {
+  audio.pause();
+});
+
+const audio = document.querySelector("audio");
+const button = document.querySelector("button";
+button.addEventListener("click", function (event) {
+  audio.stop();
+});
