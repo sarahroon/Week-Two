@@ -1,1 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility Aria</title>
+</head>
+<body>
+  
+  <a href="link" aria-label="Go to the link search page">Search</a>
 
+  <img src="image link" alt="A butterfly" tabindex="0"/>
+  <img src="image link" alt="A bee" tabindex="0"/>
+
+  <div id="notificationArea" aria-live="assertive">No new notifications</div> // USING ARIA LIVE HELPS SCREENREADER THAT AN ELEMENT WILL BE UPDATED AND WE NEED TO WATCH IT OR ANNOUNCE ITS UPDATES // ARIA LIVE ASSERTIVE MEANS IT WILL INTERRUPT ITSELF ARIA LIVE POLITE MEANS IT WILL WAIT UNTIL ITS FINISHED SPEAKING BEFORE READING OUT THE NEW NOTIFICATION
+
+  <button id="notificationButton">Generate notification</button>
+
+  <div aria-hidden="true">Just for decoration</div>
+
+</body>
+</html>
