@@ -4,7 +4,7 @@
 }
 
 .container {
- background: #F0FFFF;
+ background: #00FFFF;
  display: flex;
  flex-wrap: wrap;
  width: 10px;
@@ -18,7 +18,7 @@
 
 img {
  display: block;
- max-width: 50%;
+ max-width: 100%;
 }
 
 
